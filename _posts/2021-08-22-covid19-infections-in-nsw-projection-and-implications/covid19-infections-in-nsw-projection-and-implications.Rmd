@@ -1,7 +1,7 @@
 ---
 title: "COVID19 Infections in NSW - Projection and Implications"
 description: |
-  A short description of the post.
+  Is the localised lockdowns working and where do we go from here.
 author:
   - name: Joe Fernando
     url: https://example.com/joe_fernando
