@@ -1,11 +1,11 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Commercial Analyst Blog",
-    "description": "Welcome to our new blog, Commercial Analyst Blog. We hope you enjoy \nreading what we have to say!",
+    "title": "Welcome to the Commercial Analyst's Blog",
+    "description": "Welcome to our new blog to help Commercial Analysts. We hope you enjoy \nreading what we have to say!",
     "author": [
       {
-        "name": "Nora Jones",
+        "name": "Joe Fernando",
         "url": "https://example.com/norajones"
       }
     ],
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-08-22T14:53:37+10:00",
+    "last_modified": "2021-08-22T15:00:36+10:00",
     "input_file": {}
   }
 ]

@@ -1,12 +1,12 @@
 ---
-title: "Welcome to Commercial Analyst Blog"
+title: "Welcome to the Commercial Analyst's Blog"
 description: |
-  Welcome to our new blog, Commercial Analyst Blog. We hope you enjoy 
+  Welcome to our new blog to help Commercial Analysts. We hope you enjoy 
   reading what we have to say!
 author:
-  - name: Nora Jones 
+  - name: Joe Fernando
     url: https://example.com/norajones
-    affiliation: Spacely Sprockets
+    affiliation: Coming soon
     affiliation_url: https://example.com/spacelysprokets
 date: 08-22-2021
 output:
