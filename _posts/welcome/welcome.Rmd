@@ -5,9 +5,9 @@ description: |
   reading what we have to say!
 author:
   - name: Joe Fernando
-    url: https://example.com/norajones
-    affiliation: Coming soon
-    affiliation_url: https://example.com/spacelysprokets
+    url: https://github.com/JoeFernando/commercial_analyst_blog
+    affiliation: R-bloggers
+    affiliation_url: http://www.r-bloggers.com/
 date: 08-22-2021
 output:
   distill::distill_article:

@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to the Commercial Analyst's Blog",
-    "description": "Welcome to our new blog to help Commercial Analysts. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Joe Fernando",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2021-08-22",
-    "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-08-22T15:00:36+10:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2021-08-22-covid19-infections-in-nsw-projection-and-implications/",
     "title": "COVID19 Infections in NSW - Projection and Implications",
     "description": "Is the localised lockdowns working and where do we go from here.",
@@ -26,11 +9,28 @@
         "url": "https://example.com/joe_fernando"
       }
     ],
+    "date": "2021-09-01",
+    "categories": [],
+    "contents": "\r\nType of Model, Assumptions and Data used in projection\r\nModel used\r\nThe forecast model is based on the SIR Model for Spread of Disease and adopted from this blog post https://blog.ephorie.de/covid-19-the-case-of-germany\r\nKey Assumptions\r\nOne the key inputs of the model is susceptible individuals in NSW.\r\nWith the current vaccination rates, the model assumes at least 90% vaccination rate for 16 and older cohort in the next few weeks\r\nThe proportion of 16 and older cohort is assumed at 81.4% and sourced from http://www.healthstats.nsw.gov.au/Indicator/Dem_pop_age\r\nAt this point, no breakthrough infections are factored (which is very optimistic).\r\nMoreover, the model also optimistically assumes the under 16 cohort are not at risk of infection\r\nWe can build on the sensitivity of susceptible individuals later via a shiny interactive module (to follow shortly).\r\nThe model starts from 01Jul21\r\nData source & things to keep in mind\r\nData for the analysis is sourced from Data.NSW and we have used the NSW Covid19 case by location data set. This data set differs from the numbers issued by the Premier in her daily presser due to the timing in data collection. NSW Heath reports from 8am to 8pm whilst the data set used is 00:00 Hrs to 24:00 Hrs.\r\nThe last data point in the data set is only fully updated the next day\r\nModel output\r\nLets first run the code from here to generate the projection\r\n\r\n\r\n\r\n\r\n\r\nThe code will generate two plots, one for the first 70 days to see how well actuals line-up with model and a second one for 200 days to understand full trajectory of infections.\r\nThere is also an additional data set of confirmed cases under the variable nsw. I found having this helpful as I use this scan for exposure sites close to where I live.\r\nLets view the projection for the first 70 days:\r\n\r\n\r\n\r\nAs you can see actuals line-up nicely with the model. It makes one wonder how much of an impact targetted lockdowns have had in stopping th delta variant.\r\nCurrent Ro is at 1.13\r\nNote the last data point, as mentioned above has not been updated with all of the confirmed infections, hence the low value.\r\nNext lets view the potential full trajectory of the current outbreak\r\n\r\n\r\n\r\nDespite our optimistic assumptions, the model shows us that there is a potentially frightening few months ahead for NSW.\r\nThe model projects max daily infections of nearly 5,000 by 12Oct21. A frightening scenario for NSW Health!\r\nImplications for NSW\r\nIt appears NSW still has a lot of work to do to contain COVID19 transmission rates.\r\nWe can also use the projection to manage our own expectations of the future such as:\r\n  + Potentially tighter restrictions on movements or a hard lockdown of some sort\r\n  + Potentially our kids are not likely to go back to school this calendar year\r\n  + Supply chain is likely to be interrupted, so plan ahead for provisions and Christmas gifts\r\nPerhaps the most important takeaway from the model is to get vaxed and to practice proper hygiene/social distancing as we are not out of the woods as yet!\r\nThanks for reading.\r\nJoe Fernando\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-08-22-covid19-infections-in-nsw-projection-and-implications/covid19-infections-in-nsw-projection-and-implications_files/figure-html5/unnamed-chunk-2-1.png",
+    "last_modified": "2021-09-02T06:58:10+10:00",
+    "input_file": "covid19-infections-in-nsw-projection-and-implications.knit.md"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to the Commercial Analyst's Blog",
+    "description": "Welcome to our new blog to help Commercial Analysts. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Joe Fernando",
+        "url": "https://github.com/JoeFernando/commercial_analyst_blog"
+      }
+    ],
     "date": "2021-08-22",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-08-22T15:20:24+10:00",
-    "input_file": "covid19-infections-in-nsw-projection-and-implications.knit.md"
+    "last_modified": "2021-08-22T16:22:59+10:00",
+    "input_file": "welcome.knit.md"
   }
 ]
